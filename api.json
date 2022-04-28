@@ -1,0 +1,58 @@
+[
+    {
+      "price": 450,
+      "id": 1,
+      "title": "Etiquetas para productos",
+      "description":"Pañuelitos descartables",
+      "image": "img/primernovedad.jpeg"
+    },
+    {
+      "price": 650,
+      "id": 2,
+      "title": "Estrellitas personalizadas",
+      "description": "Para iluminar un momento",
+      "image": "img/segundanovedad.jpeg"
+    },
+    {
+      "price": 450,
+      "id": 3,
+      "title": "Numero de mesa",
+      "description": "Para destacar cada mesa",
+      "image": "img/terceranovedad.jpeg"
+    },
+    {
+      "price": 2450,
+      "id": 4,
+      "title": "Abanicos",
+      "description": "Para dias de calor",
+      "image": "img/cuartanovedad.jpeg"
+    },
+    {
+      "price": 2450,
+      "id": 5,
+      "title": "Bandeja estilo Paris",
+      "description": "Kit de baño",
+      "image": "img/bandeja1.jpeg"
+    },
+    {
+      "price": 1450,
+      "id": 6,
+      "title": "Bandeja dorado y blanco",
+      "description": "Kit de baño",
+      "image": "img/bandeja2.jpeg"
+    },
+    {
+      "price": 1450,
+      "id": 7,
+      "title": "Bandeja estilo bambu",
+      "description": "Kit de baño",
+      "image": "img/bandeja4.jpeg"
+    },
+    {
+      "price": 1500,
+      "id": 8,
+      "title": "Cajon blanco y flores",
+      "description": "Kit de baño en cajon",
+      "image": "img/cajon1.jpeg"
+    }
+  ]

@@ -1,0 +1,541 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+/* NAVEGACION */ 
+
+.nav-item a {
+  background: color #5a5e5a;
+  text-decoration: none;
+  font-family: 'Viaoda Libre', cursive;
+  font-size: 26px;
+  color: #5a5e5a;
+  font-weight: bold; }
+
+.nav-item-login {
+  text-align: center;
+  display: block;
+  margin-right: 25px;
+  color: #5a5e5a;
+  font-family: 'Viaoda Libre', cursive;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* CLIMA */ 
+.wheater-container {
+  align-items: center;
+}
+.wheater-container h1 {
+  font-size: 15px;
+}
+.wheater-container h2 {
+  font-size: 10px;
+}
+.wheater-container h3 {
+  font-size: 18px;
+}
+
+
+#carga-container {
+  background-color: rgba(250, 240, 245, 0.9);
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+  z-index: 10000;
+}
+#carga{
+  border: 15px solid #ccc;
+  border-top-color: #FC8A73;
+  border-top-style: groove;
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+
+  position: absolute;
+  top: 0px;
+  Left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+
+  -webkit-animation: girar 1.5s linear infinite;
+  -0-animation: girar 1.5s linear infinite;
+  animation: girar 1.5s linear infinite;
+}
+
+@keyframes girar {
+  from { transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+}
+
+.nav-item-login img {
+  width: 65px;
+  height: auto;
+}
+.navLogo {
+  max-width: 100%; }
+
+
+.volverArriba  {
+ text-align: center;
+  
+}
+.volverArriba p {
+  font-family: 'Viaoda Libre', cursive;
+  color:#FC8A73;}
+
+/* BOTONES */
+.addToCart{
+  
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  display: flex;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1rem;
+  opacity: 0,5;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  background-color: #FC8A73;
+  background-image: linear-gradient(to top left,
+                                    rgba(0, 0, 0, .2),
+                                    rgba(0, 0, 0, .2) 20%,
+                                    rgba(0, 0, 0, 0));
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+              inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.addToCart:hover {
+  background-color: #ed583b;
+
+}
+
+.addToCart:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+              inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+/* LOGO WONDERLAND */
+
+.logo-principal {
+  margin-top: 80px;
+  margin-bottom: 100px;
+  text-align: center;
+  max-width: 100%;
+  animation-name: aparecer;
+  animation-duration: 2s; }
+
+.logo__principal img {
+  max-width: 100%; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+/* TEXTOS */
+
+.textos h2 {
+  text-align: center;
+  font-size: 36px;
+  font-family: 'Viaoda Libre', cursive;
+  color: #5a5e5a; }
+.textos {
+  text-align: center;
+  color:#FC8A73;
+  font-size: 26px;
+  font-family: 'Viaoda Libre', cursive;}
+
+.card-name {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 15px;
+  margin-left: 200px;
+  margin-right: 200px;}  
+  
+.textos p {
+  text-align: center;
+  font-size: 26px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+
+/* GALERIAS */
+
+.galeria {
+  list-style: none;
+  display: grid;
+  
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px; }
+
+.galeria img {
+  width: 100%;
+  border-radius: 25px;
+  transition: 0.50s;
+  padding: 10px; }
+
+.galeria img:hover {
+  filter: saturate(180%);
+  -webkit-transform: scale(1);
+  transform: scale(1.1); }
+
+/* NOVEDADES/ESTILOS DE TITULOS */
+
+.titulos {
+  text-align: center;
+  font-size: 64px;
+  font-family: 'Viaoda Libre', cursive;
+  color: #5a5e5a; }
+
+.subtitulos {
+  text-align: center;
+  font-size: 50px;
+  padding-top: 40px;
+  font-family: 'Viaoda Libre', cursive;
+  color: #5a5e5a; }
+
+.subtitulos-compras {
+  text-align: center;
+  font-family: 'Viaoda Libre', cursive;
+  color: #FC8A73;
+  font-size: 35px; }
+
+.galeria h3 {
+  font-family: 'Viaoda Libre', cursive;
+  font-size: 30px;
+  color: #5a5e5a; }
+
+.galeria h4 {
+  font-size: 20px;
+  color: #5a5e5a; }
+
+.fa-solid {
+  font-size: 106px; }
+.carousel {
+  margin-bottom: 100px;}
+
+/* PRODUCTOS Y CARRITO */
+.novedades {
+  margin-left: 200px;
+  margin-right: 200px;
+  display: grid;
+  justify-items: center;
+  text-align: center;
+  padding: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px; }
+
+.subtitulos-novedades {
+  text-align: center;
+  font-family: 'Viaoda Libre', cursive;
+  font-size: 30px;
+  padding: 5px;
+  color: #5a5e5a;}
+
+
+.novedades div {
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  padding: 5px 5px;}
+
+.novedades div:hover {
+  -webkit-transform: scale(1.03); }
+
+.itemTitle  {
+  text-align: center;
+  font-size: 22px;
+  font-family: 'Uchen', serif;
+  color: #FC8A73; }
+
+.novedades img {
+  max-width: 100%;
+  border-radius: 15px;
+  transition: 0.50s;
+  padding: 5px; }
+
+.novedades img:hover {
+  filter: saturate(180%); }
+
+.novedades h4 {
+  font-size: 15px;
+  padding: 5px;
+  color: #5a5e5a; }
+
+/* ESTILO DEL CARRITO */
+
+.carrito-estilo {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 10px;
+  padding: 15px;
+  margin-left: 250px;
+  margin-right: 250px;}
+
+.table {
+  max-width: 100%;}
+
+/* SOCIAL */
+
+.social {
+  margin: 50px; }
+
+.social h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'Viaoda Libre', cursive;
+  font-size: 30px;
+  color: #5a5e5a; }
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.links a {
+  margin: 0 30px; }
+
+.links a i {
+  color: #FC8A73;
+  font-size: 3rem;
+  transition: 0.50s; }
+
+.links i:hover {
+  -webkit-transform: scale(1);
+  transform: scale(1.3); }
+
+/*PIE DE PAGINA*/
+
+.pie {
+  width: 100%;
+  background-image: linear-gradient(to pink, red); }
+
+.pie p {
+  width: 100%;
+  height: 100px;
+  padding: 25px;
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 30px;
+  font-family: 'Viaoda Libre', cursive;
+  font-size: 26px;
+  color: #5A5E5A;
+  background-image: linear-gradient(to left, #FC8A73, #FFC9AD, #FC8A73); }
+
+/* PREGUNTAS FRECUENTES */
+
+.pagina-contenedor {
+  margin-top: 50px;
+  background-color: #fdfbfb;
+  border-radius: 15px;
+  margin-top: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  text-align: center;}
+
+.pagina-pregunta {
+  font-size: 36px;
+  color:#7d7978;
+  font-weight: bold;
+  font-family: 'Viaoda Libre', cursive; }
+
+.pagina-respuesta {
+  font-size: 30px;
+  text-indent: 1rem;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 10px 40%; }
+
+/*METODOS DE PAGO Y ENVIO*/
+
+.formas-envios {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 50px auto;
+  width: 60%; }
+
+.formas-envios img {
+  width: 100px;
+  height: 100px; }
+
+.lista-pagos {
+  list-style: none;
+  width: 40%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  justify-items: center;
+  margin: 20px auto;
+  gap: 10px; }
+
+.lista-pagos img {
+  max-width: 100%; }
+
+/*ETIQUETAS DE CATEGORIAS*/
+
+.categorias-lista {
+  display: grid;
+  max-width: 100%;
+  margin-top: 10px;
+  justify-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  margin-bottom: 50px;
+  padding: 30px 40px;
+  background-image: linear-gradient(to left, #FC8A73, #FFC9AD, #FC8A73); }
+
+.categorias-lista li {
+  list-style: none;
+  font-size: 16px;
+  margin-bottom: 10px; }
+
+.categorias-lista a {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: black;
+  text-decoration: none;
+  padding: 5px 5px;
+  background-color: transparent;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #000000;
+  transition: .4s; }
+
+.categorias-lista a:hover {
+  color: cornsilk; }
+
+.footer-contenedor {
+  width: 100%;
+  height: 200px;
+  background-image: linear-gradient(to pink, red); }
+  .footer-contenedor .footer-item {
+    width: 100%;
+    height: 100px;
+    padding: 25px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Viaoda Libre', cursive;
+    width: 100%;
+    height: 100px;
+    padding: 25px;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 30px;
+    font-family: 'Viaoda Libre', cursive;
+    font-size: 26px;
+    color: #5A5E5A;
+    background-color: pink; }
+
+.contacto-form {
+  max-width: 100%;
+  display: flex;
+  margin-top: 35px;
+  justify-content: center;}
+
+.contacto-form {
+  color: #FC8A73;
+  font-size: 20px;
+  font-family: 'Uchen', serif; }
+
+#email-form {
+  border-radius: 10px;
+  padding: 5px;}
+
+  .buton-form {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #e681e0;
+    box-shadow: 0 5px #ee07bc;
+  }
+  .buton-form:hover {
+    box-shadow: 0 3px #e9c9df;
+    top: 1px;
+  }
+  .buton-form:active {
+    box-shadow: 0 0 #77135e;
+    top: 5px;
+  }
+
+.grilla-contenedor {
+  display: grid;
+  row-gap: 20px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "tarjetas"
+ "envios"; }
+.grilla-contenedor .grilla-tarjetas, .grilla-contenedor .grilla-envios {
+    display: grid;
+    list-style: none;
+    row-gap: 10px;
+    column-gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr 1fr; }
+  .grilla-contenedor .grilla-envios {
+    grid-area: envios; }
+
+
+  /* MEDIA QUERIES */ 
+
+@media (max-width: 970px) {
+  .galeria,
+  .novedades,
+  .souvenirs {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 100%; }
+  .formas-envios {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: stretch; }
+  .categorias-lista {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr); }
+  .categorias-lista a {
+    font-size: 13px; }
+  .lista-pagos {
+    grid-template-columns: repeat(2, 1fr); } }
+
+@media (max-width: 560px) {
+  .galeria,
+  .novedades,
+  .souvenirs {
+    grid-template-columns: 1fr;
+    max-width: 100%; }
+  .formas-envios {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr); }
+  .pie {
+    justify-items: center; }
+  .lista-videos {
+    grid-template-columns: repeat(2, 1fr); } }
+
+@media (max-width: 460px) {
+  .categorias-lista {
+    grid-template-columns: repeat(2, 1fr); } }
+
+@media (max-width: 360px) {
+  .categorias-lista {
+    padding: 0 auto;
+    margin: 0 auto;
+    grid-template-columns: 1fr; }
+  .galeria img,
+  .novedades img,
+  .souvenirs img {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 100%; }
+  .formas-envios {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: center; } }

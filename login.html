@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de sesion</title>
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+<body>
+    <form class="form-container">
+        <h1>INICIO DE SESION</h1>
+        <div class="group">
+          <input class="inp-stl" type="email" id="emailAddres"><span class="highlight"></span><span class="bar"></span>
+          <label>Correo</label>
+        </div>
+        <div class="group">
+          <input class="inp-stl" type="password" id="password"><span class="highlight"></span><span class="bar"></span>
+          <label>Contraseña</label>
+        </div>
+        
+        <button type="button" id="btnLogin" class="button buttonBlue">Iniciar
+          <div class="ripples buttonRipples"><span class="ripplesCircle"></span></div>
+        </button>
+        <div class="butonns-container">
+        <input type="checkbox" name="" id="recordarme">Recordarme
+        <button class="button-delete" id="btnVaciarLocalStorage">Vaciar local</button>
+        <button class="button-delete" id="btnVaciarSessionStorage">Borrar sesion</button>
+        </div>
+    </form>
+
+      <footer>
+        <a href="./index.html"><img src="./img/sombrero.png"><p>Volver al inicio</p></a>
+        
+        <p>Te esperamos! <a href="#" target="_blank">Wonderland</a></p>
+      </footer>
+      
+      
+      <script src="./js/login.js"></script>
+</body>
+</html>
