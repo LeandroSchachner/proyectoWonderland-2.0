@@ -363,6 +363,7 @@
   height: 100px; }
 
 .lista-pagos {
+  
   list-style: none;
   width: 40%;
   display: grid;
@@ -373,10 +374,15 @@
   gap: 10px; }
 
 .lista-pagos img {
+  padding: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 5px;
   max-width: 100%; }
 
 /*ETIQUETAS DE CATEGORIAS*/
-
+.categorias {
+  margin-top: 50px;
+}
 .categorias-lista {
   display: grid;
   max-width: 100%;
